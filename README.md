@@ -1,0 +1,2 @@
+# rust
+Explore rust!

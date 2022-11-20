@@ -12,6 +12,10 @@ mod structs;
 mod pointers;
 mod enums;
 mod cli;
+mod hashmap;
+mod file;
+mod generics;
+mod terminal;
 fn main() {
     basics::say_greeting("jest".to_string());
     basics::say_hello();
@@ -34,6 +38,13 @@ fn main() {
     structs::run();
     pointers::run();
     cli::run();
+    hashmap::run();
+    // file::run();
+    generics::run();
+    terminal::run();
+    file::write_file();
+    file::read_file();
+    file::delete_file();
 }
 
 fn calc(){

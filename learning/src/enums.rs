@@ -1,0 +1,4 @@
+enum Hello{
+    Ritvik,
+    Ramesh
+}

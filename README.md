@@ -1,2 +1,3 @@
-# rust
-Explore rust!
+# Explore Rust
+
+Exploring Rust
